@@ -1,0 +1,60 @@
+:root {
+  --success: #28a745; /* Color de éxito */
+  --Light: 300;
+  --Medium: 500;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.navbar-brand {
+  font-weight: var(--Medium);
+}
+.navbar {
+  background-color: var(--success);
+}
+
+.navbar-brand:hover,
+.navbar-nav .nav-link:hover {
+  font-weight: var(--Medium);
+}
+
+h2 {
+  font-weight: var(--Light) !important;
+  text-align: left;
+}
+
+h3 {
+  font-weight: var(--Medium);
+}
+
+p,
+i {
+  font-weight: var(--Light);
+}
+
+a {
+  text-decoration: none;
+}
+
+.precios {
+  text-align: right;
+}
+
+.price {
+  color: var(--success);
+  font-weight: var(--Medium);
+}
+
+.line-through {
+  text-decoration: line-through;
+}
+
+.formulario {
+  background: var(--success);
+}
+
+.fw {
+  font-weight: var(--Medium) !important;
+}
